@@ -7,10 +7,7 @@ class App < Sinatra::Base
     end
 
     post '/team' do
-  #original_string = params["string"]
-  #@reversed_string = original_string.reverse
-  #puts @reversed_string
-  #erb :reversed
+
 
   @name = params[:name]
   @coach = params[:coach]
